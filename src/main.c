@@ -5,7 +5,7 @@ int main(void){
         int *pys=&years[0];
         int day,month;
         printf("write the month and day: \n");
-        scanf("%hhd %hhd",&month,&day);
+        scanf("%d %d",&month,&day);
         switch(zaller_day(pys,month,day)){
                 case 0: printf("Saturday"); break;
                 case 1: printf("Sunday"); break;
