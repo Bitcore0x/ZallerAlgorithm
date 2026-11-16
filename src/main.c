@@ -1,5 +1,5 @@
 #include "stdio.h"
-#include "zaller.c"
+#include "zaller.h"
 int main(void){
         int years[4]={2,0,2,6}; /*2026/day/mm */
         int *pys=&years[0];
